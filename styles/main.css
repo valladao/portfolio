@@ -180,7 +180,31 @@ main {
   background-color: rgba(10, 10, 10, 0.4);
   border: 1px solid var(--brand);
   transition: background-color 0.3s ease;
-  height: 304px;
+  height: 310px;
+  /**/
+  outline: 1px solid var(--brand);
+  outline-offset: 4px;
+}
+
+.card h3 {
+  color: var(--accent);
+  /***/
+  transform: translateY(-48px);
+  border: 1px solid var(--brand);
+  background-color: var(--black);
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+  min-height: 64px;
+  vertical-align: middle;
+}
+
+.card h4 {
+  transform: translateY(-32px);
+}
+
+.card link {
+  transform: translateY(-40px);
 }
 
 .card-content {
