@@ -119,7 +119,7 @@ p {
 
 a,
 .link {
-  color: var(--brand);
+  color: var(--white);
   display: block;
   text-align: end;
 }
@@ -174,13 +174,21 @@ main {
   display: flex;
   flex-direction: column;
   width: 240px;
-  margin: 16px;
-  padding: 24px;
-  cursor: pointer;
-  background-color: rgba(10, 10, 10, 0.4);
-  border: 1px solid var(--brand);
-  transition: background-color 0.3s ease;
   height: 304px;
+  margin: 16px;
+  cursor: pointer;
+  background-image: url(/assets/grid.svg);
+  background-size: 12%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-image: url(/assets/brace.svg) 50 50;
+  border-style: inset;
+  border-width: 24px;
+  transition: 0.8s;
+}
+
+.card:hover {
+  border-image: url(/assets/brace.svg) 25 25;
+  background-size: 10%;
 }
 
 .card-content {
@@ -189,10 +197,6 @@ main {
 
 .card-content {
   margin-bottom: 16px;
-}
-
-.card:hover {
-  background-color: rgba(255, 255, 255, 0.02);
 }
 
 /*

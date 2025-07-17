@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px">
+<style type="text/css">
+polyline { fill: none; stroke: #ff2eff; }
+</style>
+<polyline points="0,3 0,0 3,0" id="brace" />
+<use xlink:href="#brace" transform="rotate(90, 5, 5)" />
+<use xlink:href="#brace" transform="rotate(180, 5, 5)" />
+<use xlink:href="#brace" transform="rotate(270, 5, 5)" />
+</svg>
