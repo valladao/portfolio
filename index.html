@@ -2,22 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <div id="background"></div>
+    <div class="grid-container">
+      <div class="plane">
+        <div class="grid"></div>
+        <div class="glow"></div>
+      </div>
+    </div>
 
-    <main>
-      <section id="hero">Hero</section>
-      <section id="about">About</section>
-      <section id="projects">
-        <div class="card" data-project="decathlon">Decathlon</div>
-        <div class="card" data-project="terracotta">TerraCotta</div>
-        <div class="card" data-project="pedro">Pedro Portfolio</div>
-      </section>
-      <section id="skills">Skills</section>
-    </main>
+    <div id="horizon">
+      <div class="glow"></div>
+    </div>
+    <div id="earth"></div>
 
     <script type="module" src="scripts/main.js"></script>
   </body>
